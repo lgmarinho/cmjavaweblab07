@@ -21,7 +21,7 @@ public class ConnectionManager {
      */
     private static final String STR_DRIVER = "com.mysql.jdbc.Driver";
     private static final String DATABASE = "jw";
-    private static final String IP = "academias"; //"192.168.0.1";
+    private static final String IP = "localhost"; //"192.168.0.1";
     private static final String STR_CON = "jdbc:mysql://" + IP + ":3306/" + DATABASE;
     private static final String USER = "jw";
     private static final String PASSWORD = "jw";
